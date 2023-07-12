@@ -57,9 +57,9 @@ The supported architectures:
 
 Buiding image for AMD64:
 ```
-$ DOCKERFILE=Dockerfile make image 
+$ make image
 ```
 Buiding image for PPC64LE:
 ```
-$ DOCKERFILE=Dockerfile.ppc64le make image        
+$ make image-ppc64le
 ```
